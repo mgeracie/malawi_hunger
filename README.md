@@ -1,8 +1,13 @@
-# malawi_hunger
+# Estimating the Geographic Distribution of Hunger in Malawi
 We create a local countrywide estimation of the burden of hunger in Malawi with local confidence intervals.
 
+## Background
 ![Results](./raster_data.png)
 ![Results](./survey_data.png)
+
+## Methods
+
+## Results
 ![Results](./estimation_map.png)
 
 ## Usage
