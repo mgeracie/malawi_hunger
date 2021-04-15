@@ -2,13 +2,13 @@
 We create a local countrywide estimation of the burden of hunger in Malawi with local confidence intervals.
 
 ## Background
-![Results](./raster_data.png)
-![Results](./survey_data.png)
+![](./raster_data.png)
+![](./survey_data.png)
 
 ## Methods
 
 ## Results
-![Results](./estimation_map.png =300x)
+<img src="estimation_map.png" alt="Estimation" width="200"/>
 
 ## Usage
 
