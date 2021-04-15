@@ -8,7 +8,7 @@ We create a local countrywide estimation of the burden of hunger in Malawi with 
 ## Methods
 
 ## Results
-![Results](./estimation_map.png)
+![Results](./estimation_map.png =x500)
 
 ## Usage
 
