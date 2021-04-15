@@ -1,5 +1,6 @@
 # Estimating the Geographic Distribution of Hunger in Malawi
 
+**Contents:**
 * [Background](#background)
 * [Methods](#methods)
 * [Results](#results)
