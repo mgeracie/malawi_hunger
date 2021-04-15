@@ -4,11 +4,13 @@ We create a local countrywide estimation of the burden of hunger in Malawi with 
 ## Background
 ![](./raster_data.png)
 ![](./survey_data.png)
+<img src="raster_data.png" alt="Geographic Input" width="600"/>
+<img src="survey_data.png" alt="Survey distribution" width="400"/>
 
 ## Methods
 
 ## Results
-<img src="estimation_map.png" alt="Estimation" width="200"/>
+<img src="estimation_map.png" alt="Estimation" width="400"/>
 
 ## Usage
 
