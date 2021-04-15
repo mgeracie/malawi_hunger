@@ -1,6 +1,6 @@
 # Estimating the Geographic Distribution of Hunger in Malawi
 
-<a name="background"></a>
+<a name="background">Background</a>
 
 ## [Background](#background)
 In this project we create a country-wide local estimation of the burden of hunger in the country of Malawi and evaluate the systematic error and statistical uncertainties of our model. The Malawian economy is one of the least developed in the world and faces persistent problems due to poor infrastructure and government corruption. Our goal is to create a model that will be useful for government and supporting organizations to address areas with the greatest need. 
