@@ -36,4 +36,4 @@ For the user's convenience, python functions are defined for querying the expect
 
 ## Usage
 
-This project is best viewed in a notebook viewer, which can be accessed here. In this notebook, you will find a walk through of the work done and the respective code.
+This project is best viewed in a notebook viewer, which can be accessed [here](./modeling-burden-of-hunger-in-malawi.ipynb). In this notebook, you will find a walk through of the work done and the respective code.
