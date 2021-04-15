@@ -19,8 +19,8 @@ The model's performance is evaluated using the mean-absolute-error (MAE) on a ho
 
 For the user's convenience, python functions are defined for querying the expected days/week with portion restrictions and the associated confidence intervals at arbirary longitude and latitude within Malawi. Results are summarized with an interactive map that shows these results on mouse-over.
 
-<img src="estimation_map.png" alt="Estimation" width="400"/>
+<img src="results_map.png" alt="Results Preview" width="400"/>
 
 ## Usage
 
-This project is best viewed in a notebook viewer, which can be accessed here. In this notebook, you will find a walk through of the work done and the respective code. 
+This project is best viewed in a notebook viewer, which can be accessed here. In this notebook, you will find a walk through of the work done and the respective code.
