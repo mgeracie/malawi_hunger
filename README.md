@@ -14,7 +14,7 @@ The burden of hunger is measured by the expected number of days/week that the av
 The geographic data was downloaded from the [RCMRD Geoportal](http://geoportal.rcmrd.org/), a platform which provides open source geospatial maps for eastern and southern Africa. They are stored as raster data which we read into numpy arrays.
 
 <p align="center">
- <img src="raster_data.png" alt="Geographic Input"/>
+ <img src="raster_data.png" alt="Geographic Input"/> 
 </p>
 
 The survey data is taken from the [Integrated Household Panel Survey](https://microdata.worldbank.org/index.php/catalog/3819/study-description) of Malawi performed in 2016 for the Living Standards Measurement Study (LSMS). A histogram of survey responses can be seen below.
