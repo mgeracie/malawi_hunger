@@ -23,12 +23,12 @@ The survey data is taken from the [Integrated Household Panel Survey](https://mi
  <img src="survey_data.png" alt="Survey distribution"/>
 </p>
 
-We join this data using the geographic coordinates of the survey households and train a variety of machine learning models, including decision tree regressors, linear regressors, k-nearest neighbor regressors, and support vector machines to predict the days/week of portion resriction from the independent variables. Finally, we feed these models into a stacking regressor which lowers bias and reduced the chance of over-fitting. This done, we generalize the survey data to a local country-wide estimation by querying the value of the independent variables at each point in the country and performing a prediction with the model. 
+We join this data using the geographic coordinates of the survey households and train a variety of machine learning models, including decision tree regressors, linear regressors, k-nearest neighbor regressors, and support vector machines to predict the days/week of portion restriction from the independent variables. Finally, we feed these models into a stacking regressor which lowers bias and reduced the chance of over-fitting. This done, we generalize the survey data to a local country-wide estimation by querying the value of the independent variables at each point in the country and performing a prediction with the model. 
 
 ## Results<a name="results"></a>
 The model's performance is evaluated using the mean-absolute-error (MAE) on a holdout set of validation data (40% of the collected survey data), which stands at about 0.67 days/week. In this context, where 11% of survey respondents report restricting portion sizes 5-7 days/week, we believe this MAE indicates an acceptably low level of systematic error, and that we have a have an effective model for diagnosing the level of need at a location and helping to set priorities for policy intervention. Statistical uncertainty is quantified by spatially varying confidence intervals depending on local conditions, computed using the bootstrap.
 
-For the user's convenience, python functions are defined for querying the expected days/week with portion restrictions and the associated confidence intervals at arbirary longitude and latitude within Malawi. Results are summarized with an interactive map that shows these results on mouse-over.
+For the user's convenience, python functions are defined for querying the expected days/week with portion restrictions and the associated confidence intervals at arbitrary longitude and latitude within Malawi. Results are summarized with an interactive map that shows these results on mouse-over.
 
 <p align="center">
  <img src="results_map.png" alt="Results Preview" width="400"/>
@@ -36,4 +36,4 @@ For the user's convenience, python functions are defined for querying the expect
 
 ## Usage
 
-This project is best viewed in a notebook viewer, which can be accessed [here](./modeling-burden-of-hunger-in-malawi.ipynb). In this notebook, you will find a walk through of the work done and the respective code.
+This project is best viewed in a notebook viewer, which can be accessed [here](./modeling-burden-of-hunger-in-malawi.ipynb). In this notebook, you will find a walkthrough of the work done and the respective code.
